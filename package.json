@@ -1,11 +1,11 @@
 {
-  "name": "javascriptes6",
+  "name": "webpackbasetemplate",
   "version": "1.0.0",
-  "description": "Practice for ES6",
+  "description": "Webpack base for sass, javascript, minification, the good stuff",
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/seaglemd/webpackstartertemplate.git"
   },
   "author": "",
   "license": "ISC",
