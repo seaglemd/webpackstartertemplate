@@ -1,0 +1,42 @@
+{
+  "name": "javascriptes6",
+  "version": "1.0.0",
+  "description": "Practice for ES6",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "scripts": {
+    "//": "basic watch", 
+    "watch": "webpack --watch",
+    "//":"for running the app with auto updates",
+    "start": "webpack --watch & webpack-dev-server --open-page 'webpack-dev-server/index.html'",
+    "//":"minified for production",
+    "build": "webpack --mode production",
+    "//":"normal for dev",
+    "dev": "webpack --mode development"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-md5-hash": "0.0.6"
+  }
+}
